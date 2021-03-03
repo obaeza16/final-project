@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Code Fast Reviews</title>
+		<link
+			href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="style.css" />
+		<script
+			src="https://kit.fontawesome.com/40cbc17b5a.js"
+			crossorigin="anonymous"
+		></script>
+		<style media="all" id="fa-v4-font-face"></style>
+	</head>
+	<body>
+		<!-- This example requires Tailwind CSS v2.0+ -->
+		<!-- NAVIGATION BAR -->
+		<nav class="bg-gray-800">
+			<div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
+				<div class="relative flex items-center justify-between h-16">
+					<div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
+						<!-- Mobile menu button-->
+						<button
+							type="button"
+							class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
+							aria-controls="mobile-menu"
+							aria-expanded="false"
+						>
+							<span class="sr-only">Open main menu</span>
+
+							<!-- Icon when menu is open. -->
+							<!-- Heroicon name: outline/x Menu open: "block", Menu closed: "hidden" -->
+							<svg
+								class="block h-6 w-6"
+								xmlns="http://www.w3.org/2000/svg"
+								fill="none"
+								viewBox="0 0 24 24"
+								stroke="currentColor"
+								aria-hidden="true"
+							>
+								<path
+									stroke-linecap="round"
+									stroke-linejoin="round"
+									stroke-width="2"
+									d="M4 6h16M4 12h16M4 18h16"
+								></path>
+							</svg>
+
+							<!-- Icon when menu is open. -->
+							<!-- Heroicon name: outline/x Menu open: "block", Menu closed: "hidden" -->
+							<svg
+								class="hidden h-6 w-6"
+								xmlns="http://www.w3.org/2000/svg"
+								fill="none"
+								viewBox="0 0 24 24"
+								stroke="currentColor"
+								aria-hidden="true"
+							>
+								<path
+									stroke-linecap="round"
+									stroke-linejoin="round"
+									stroke-width="2"
+									d="M6 18L18 6M6 6l12 12"
+								></path>
+							</svg>
+						</button>
+					</div>
+					<div
+						class="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start"
+					>
+						<div class="flex-shrink-0 flex items-center">
+							<img
+								class="block lg:hidden h-8 w-auto"
+								src="/Web banner 1380x520 px - Custom dimensions(1).png"
+								alt="CodeFast"
+							/>
+							<img
+								class="hidden lg:block h-8 w-auto"
+								src="/Web banner 1380x520 px - Custom dimensions(1).png"
+								alt="CodeFast"
+							/>
+						</div>
+						<div class="hidden sm:block sm:ml-6">
+							<div class="flex space-x-4">
+								<!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+								<a
+									href="/index.html"
+									class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+									>What is Code Fast</a
+								>
+								<a
+									href="#team"
+									class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+									>Meet the Team</a
+								>
+								<a
+									href="#"
+									class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+									>Start Playing</a
+								>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Mobile menu, show/hide based on menu state. -->
+			<div class="sm:hidden" id="mobile-menu">
+				<div class="px-2 pt-2 pb-3 space-y-1">
+					<!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+					<a
+						href="#"
+						class="bg-gray-900 text-white block px-3 py-2 rounded-md text-base font-medium"
+						>What is Code Fast</a
+					>
+					<a
+						href="#team"
+						class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+						>Meet the Team</a
+					>
+					<a
+						href="#"
+						class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+						>Start Playing</a
+					>
+				</div>
+			</div>
+		</nav>
+
+		<!-- REVIEW TOTALS -->
+		<div
+			class="mx-auto bg-white shadow-lg rounded-lg my-32 px-4 py-4 max-w-sm "
+		>
+			<div class="mb-1 tracking-wide px-4 py-4">
+				<h2 class="text-gray-800 font-semibold mt-1">67 Users reviews</h2>
+				<div class="border-b -mx-8 px-8 pb-3">
+					<div class="flex items-center mt-1">
+						<div class=" w-1/5 text-indigo-500 tracking-tighter">
+							<span>5 star</span>
+						</div>
+						<div class="w-3/5">
+							<div class="bg-gray-300 w-full rounded-lg h-2">
+								<div
+									style="background-color: #8B9BB6;"
+									class=" w-7/12 rounded-lg h-2"
+								></div>
+							</div>
+						</div>
+						<div class="w-1/5 text-gray-700 pl-3">
+							<span class="text-sm">51%</span>
+						</div>
+					</div>
+					<!-- first -->
+					<div class="flex items-center mt-1">
+						<div class="w-1/5 text-indigo-500 tracking-tighter">
+							<span>4 star</span>
+						</div>
+						<div class="w-3/5">
+							<div class="bg-gray-300 w-full rounded-lg h-2">
+								<div
+									style="background-color: #8B9BB6;"
+									class="w-1/5 rounded-lg h-2"
+								></div>
+							</div>
+						</div>
+						<div class="w-1/5 text-gray-700 pl-3">
+							<span class="text-sm">17%</span>
+						</div>
+					</div>
+					<!-- second -->
+					<div class="flex items-center mt-1">
+						<div class="w-1/5 text-indigo-500 tracking-tighter">
+							<span>3 star</span>
+						</div>
+						<div class="w-3/5">
+							<div class="bg-gray-300 w-full rounded-lg h-2">
+								<div
+									style="background-color: #8B9BB6;"
+									class=" w-3/12 rounded-lg h-2"
+								></div>
+							</div>
+						</div>
+						<div class="w-1/5 text-gray-700 pl-3">
+							<span class="text-sm">19%</span>
+						</div>
+					</div>
+					<!-- thierd -->
+					<div class="flex items-center mt-1">
+						<div class=" w-1/5 text-indigo-500 tracking-tighter">
+							<span>2 star</span>
+						</div>
+						<div class="w-3/5">
+							<div class="bg-gray-300 w-full rounded-lg h-2">
+								<div
+									style="background-color: #8B9BB6;"
+									class=" w-1/5 rounded-lg h-2"
+								></div>
+							</div>
+						</div>
+						<div class="w-1/5 text-gray-700 pl-3">
+							<span class="text-sm">8%</span>
+						</div>
+					</div>
+					<!-- 4th -->
+					<div class="flex items-center mt-1">
+						<div class="w-1/5 text-indigo-500 tracking-tighter">
+							<span>1 star</span>
+						</div>
+						<div class="w-3/5">
+							<div class="bg-gray-300 w-full rounded-lg h-2">
+								<div
+									style="background-color: #8B9BB6;"
+									class=" w-2/12 rounded-lg h-2"
+								></div>
+							</div>
+						</div>
+						<div class="w-1/5 text-gray-700 pl-3">
+							<span class="text-sm">5%</span>
+						</div>
+					</div>
+					<!-- 5th -->
+				</div>
+			</div>
+			<div class="w-full px-4 items-center">
+				<h3 class="font-medium tracking-tight">Review Code Fast!</h3>
+				<button
+					class="bg-gray-100 border border-gray-400 px-3 py-1 rounded text-gray-800 mt-2"
+				>
+					Write a review
+				</button>
+			</div>
+		</div>
+
+		<!-- REVIEW BY INDIVIDUAL -->
+		<div class="flex w-3/4 m-auto pb-10">
+			<div class="flex-shrink-0">
+				<div class="inline-block relative">
+					<div class="relative w-16 h-16 rounded-full overflow-hidden">
+						<img
+							class="absolute top-0 left-0 w-full h-full bg-cover object-fit object-cover"
+							src="https://picsum.photos/id/646/200/200"
+							alt="Profile picture"
+						/>
+						<div
+							class="absolute top-0 left-0 w-full h-full rounded-full shadow-inner"
+						></div>
+					</div>
+					<svg
+						class="fill-current text-white bg-green-600 rounded-full p-1 absolute bottom-0 right-0 w-6 h-6 -mx-1 -my-1"
+						xmlns="http://www.w3.org/2000/svg"
+						viewBox="0 0 20 20"
+					>
+						<path
+							d="M19 11a7.5 7.5 0 0 1-3.5 5.94L10 20l-5.5-3.06A7.5 7.5 0 0 1 1 11V3c3.38 0 6.5-1.12 9-3 2.5 1.89 5.62 3 9 3v8zm-9 1.08l2.92 2.04-1.03-3.41 2.84-2.15-3.56-.08L10 5.12 8.83 8.48l-3.56.08L8.1 10.7l-1.03 3.4L10 12.09z"
+						/>
+					</svg>
+				</div>
+			</div>
+			<div class="ml-6">
+				<p class="flex items-baseline">
+					<span class="text-gray-600 font-bold">Sopota M.</span>
+					<span class="ml-2 text-green-600 text-xs">Verified Buyer</span>
+				</p>
+				<div class="flex items-center mt-1">
+					<svg
+						class="w-4 h-4 fill-current text-yellow-600"
+						xmlns="http://www.w3.org/2000/svg"
+						viewBox="0 0 20 20"
+					>
+						<path
+							d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z"
+						/>
+					</svg>
+					<svg
+						class="w-4 h-4 fill-current text-yellow-600"
+						xmlns="http://www.w3.org/2000/svg"
+						viewBox="0 0 20 20"
+					>
+						<path
+							d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z"
+						/>
+					</svg>
+					<svg
+						class="w-4 h-4 fill-current text-yellow-600"
+						xmlns="http://www.w3.org/2000/svg"
+						viewBox="0 0 20 20"
+					>
+						<path
+							d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z"
+						/>
+					</svg>
+					<svg
+						class="w-4 h-4 fill-current text-yellow-600"
+						xmlns="http://www.w3.org/2000/svg"
+						viewBox="0 0 20 20"
+					>
+						<path
+							d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z"
+						/>
+					</svg>
+					<svg
+						class="w-4 h-4 fill-current text-gray-400"
+						xmlns="http://www.w3.org/2000/svg"
+						viewBox="0 0 20 20"
+					>
+						<path
+							d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z"
+						/>
+					</svg>
+				</div>
+				<div class="mt-3">
+					<span class="font-bold">Sapien consequat eleifend!</span>
+					<p class="mt-1">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+						eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+						ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+						aliquip ex ea commodo consequat. Duis aute irure dolor in
+						reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+						pariatur.
+					</p>
+				</div>
+				<div
+					class="flex items-center justify-between mt-4 text-sm text-gray-600 fill-current"
+				>
+					<button class="flex items-center">
+						<svg
+							class="w-3 h-3"
+							xmlns="http://www.w3.org/2000/svg"
+							viewBox="0 0 20 20"
+						>
+							<path
+								d="M5.08 12.16A2.99 2.99 0 0 1 0 10a3 3 0 0 1 5.08-2.16l8.94-4.47a3 3 0 1 1 .9 1.79L5.98 9.63a3.03 3.03 0 0 1 0 .74l8.94 4.47A2.99 2.99 0 0 1 20 17a3 3 0 1 1-5.98-.37l-8.94-4.47z"
+							/>
+						</svg>
+						<span class="ml-2">Share</span>
+					</button>
+					<div class="flex items-center">
+						<span>Was this review helplful?</span>
+						<button class="flex items-center ml-6">
+							<svg
+								class="w-3 h-3"
+								xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 20 20"
+							>
+								<path
+									d="M11 0h1v3l3 7v8a2 2 0 0 1-2 2H5c-1.1 0-2.31-.84-2.7-1.88L0 12v-2a2 2 0 0 1 2-2h7V2a2 2 0 0 1 2-2zm6 10h3v10h-3V10z"
+								/>
+							</svg>
+							<span class="ml-2">56</span>
+						</button>
+						<button class="flex items-center ml-4">
+							<svg
+								class="w-3 h-3"
+								xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 20 20"
+							>
+								<path
+									d="M11 20a2 2 0 0 1-2-2v-6H2a2 2 0 0 1-2-2V8l2.3-6.12A3.11 3.11 0 0 1 5 0h8a2 2 0 0 1 2 2v8l-3 7v3h-1zm6-10V0h3v10h-3z"
+								/>
+							</svg>
+							<span class="ml-2">10</span>
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- ANOTHER -->
+		<div class="flex w-3/4 m-auto pb-10">
+			<div class="flex-shrink-0">
+				<div class="inline-block relative">
+					<div class="relative w-16 h-16 rounded-full overflow-hidden">
+						<img
+							class="absolute top-0 left-0 w-full h-full bg-cover object-fit object-cover"
+							src="https://picsum.photos/id/646/200/200"
+							alt="Profile picture"
+						/>
+						<div
+							class="absolute top-0 left-0 w-full h-full rounded-full shadow-inner"
+						></div>
+					</div>
+					<svg
+						class="fill-current text-white bg-green-600 rounded-full p-1 absolute bottom-0 right-0 w-6 h-6 -mx-1 -my-1"
+						xmlns="http://www.w3.org/2000/svg"
+						viewBox="0 0 20 20"
+					>
+						<path
+							d="M19 11a7.5 7.5 0 0 1-3.5 5.94L10 20l-5.5-3.06A7.5 7.5 0 0 1 1 11V3c3.38 0 6.5-1.12 9-3 2.5 1.89 5.62 3 9 3v8zm-9 1.08l2.92 2.04-1.03-3.41 2.84-2.15-3.56-.08L10 5.12 8.83 8.48l-3.56.08L8.1 10.7l-1.03 3.4L10 12.09z"
+						/>
+					</svg>
+				</div>
+			</div>
+			<div class="ml-6">
+				<p class="flex items-baseline">
+					<span class="text-gray-600 font-bold">Mary T.</span>
+					<span class="ml-2 text-green-600 text-xs">Verified Buyer</span>
+				</p>
+				<div class="flex items-center mt-1">
+					<svg
+						class="w-4 h-4 fill-current text-yellow-600"
+						xmlns="http://www.w3.org/2000/svg"
+						viewBox="0 0 20 20"
+					>
+						<path
+							d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z"
+						/>
+					</svg>
+					<svg
+						class="w-4 h-4 fill-current text-yellow-600"
+						xmlns="http://www.w3.org/2000/svg"
+						viewBox="0 0 20 20"
+					>
+						<path
+							d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z"
+						/>
+					</svg>
+					<svg
+						class="w-4 h-4 fill-current text-yellow-600"
+						xmlns="http://www.w3.org/2000/svg"
+						viewBox="0 0 20 20"
+					>
+						<path
+							d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z"
+						/>
+					</svg>
+					<svg
+						class="w-4 h-4 fill-current text-gray-400"
+						xmlns="http://www.w3.org/2000/svg"
+						viewBox="0 0 20 20"
+					>
+						<path
+							d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z"
+						/>
+					</svg>
+					<svg
+						class="w-4 h-4 fill-current text-gray-400"
+						xmlns="http://www.w3.org/2000/svg"
+						viewBox="0 0 20 20"
+					>
+						<path
+							d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z"
+						/>
+					</svg>
+				</div>
+
+				<div class="mt-3">
+					<span class="font-bold">Sapien consequat eleifend!</span>
+					<p class="mt-1">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+						eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+						ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+						aliquip ex ea commodo consequat. Duis aute irure dolor in
+						reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+						pariatur.
+					</p>
+				</div>
+				<div
+					class="flex items-center justify-between mt-4 text-sm text-gray-600 fill-current"
+				>
+					<button class="flex items-center">
+						<svg
+							class="w-3 h-3"
+							xmlns="http://www.w3.org/2000/svg"
+							viewBox="0 0 20 20"
+						>
+							<path
+								d="M5.08 12.16A2.99 2.99 0 0 1 0 10a3 3 0 0 1 5.08-2.16l8.94-4.47a3 3 0 1 1 .9 1.79L5.98 9.63a3.03 3.03 0 0 1 0 .74l8.94 4.47A2.99 2.99 0 0 1 20 17a3 3 0 1 1-5.98-.37l-8.94-4.47z"
+							/>
+						</svg>
+						<span class="ml-2">Share</span>
+					</button>
+					<div class="flex items-center">
+						<span>Was this review helplful?</span>
+						<button class="flex items-center ml-6">
+							<svg
+								class="w-3 h-3"
+								xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 20 20"
+							>
+								<path
+									d="M11 0h1v3l3 7v8a2 2 0 0 1-2 2H5c-1.1 0-2.31-.84-2.7-1.88L0 12v-2a2 2 0 0 1 2-2h7V2a2 2 0 0 1 2-2zm6 10h3v10h-3V10z"
+								/>
+							</svg>
+							<span class="ml-2">56</span>
+						</button>
+						<button class="flex items-center ml-4">
+							<svg
+								class="w-3 h-3"
+								xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 20 20"
+							>
+								<path
+									d="M11 20a2 2 0 0 1-2-2v-6H2a2 2 0 0 1-2-2V8l2.3-6.12A3.11 3.11 0 0 1 5 0h8a2 2 0 0 1 2 2v8l-3 7v3h-1zm6-10V0h3v10h-3z"
+								/>
+							</svg>
+							<span class="ml-2">10</span>
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- FOOTER -->
+		<footer
+			class="footer bg-gray-800 relative border-b-2 border-blue-700 w-full text-center pt-1 px-60"
+		>
+			<div class="container mx-auto px-6">
+				<div class="sm:flex sm:mt-8">
+					<div
+						class="mt-8 sm:mt-0 sm:w-full sm:px-8 flex flex-col md:flex-row justify-between"
+					>
+						<div class="flex flex-col">
+							<!-- <span class="font-bold text-white uppercase mb-2"
+                            >Footer header 1</span
+                        > -->
+							<span class="my-2"
+								><a
+									href="mailto:oscarmaremar@gmail.com?subject=Contacting from Code Fast&amp;cc=caceres.joselyn@gmail.com"
+									class="text-white text-md hover:text-blue-500"
+									>Contact Us</a
+								></span
+							>
+						</div>
+						<div class="flex flex-col">
+							<!-- <span class="font-bold text-white uppercase mt-4 md:mt-0 mb-2"
+                            >Footer header 2</span
+                        > -->
+							<span class="my-2"
+								><a
+									href="/legal.html"
+									class="text-white text-md hover:text-blue-500"
+									>Legal Stuff</a
+								></span
+							>
+						</div>
+						<div class="flex flex-col">
+							<!-- <span class="font-bold text-white uppercase mt-4 md:mt-0 mb-2"
+                            >Footer header 3</span
+                        > -->
+							<span class="my-2"
+								><a
+									href="/reviews.html"
+									class="text-white text-md hover:text-blue-500"
+									>Reviews</a
+								></span
+							>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="container mx-auto px-6">
+				<div
+					class="mt-10 border-t-2 border-gray-300 flex flex-col items-center"
+				>
+					<div class="sm:w-2/3 text-center py-6">
+						<p class="text-sm text-white font-bold mb-2">
+							© 2021 by Joselyn CÁCERES &amp; Óscar BAEZA
+						</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>
